@@ -7,12 +7,11 @@
     android:orientation="vertical"
     tools:context=".FriendsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Ini adalah bagian Teman"
-        android:textSize="25sp"
-        android:gravity="center"/>
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
 
 </LinearLayout>
